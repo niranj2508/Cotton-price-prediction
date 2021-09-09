@@ -1,11 +1,10 @@
 # Cotton-price-prediction
-The price of cotton in USD/pound of 5 decades are analyzed to calculate the probability of future market trend. An artificial intelligence based solution is developed. Various models are fit under trial and error method to identify a best suit model for this particular dataset.
+Cotton is a commodity, which is perhaps the most volatile among all the agricultural commodities traded. Due to high volatility in cotton prices, it is very difficult to predict the future market trend . Thus an artificial Intelligence based solution is developed which may calculate the probability of future market trend on the basis of past years data . Various time series models are fit under trial and error method substantiating the efficacy of LSTM model subsequently.
 
 #Methodology
 
 The dataset is collected from a reliable website which is said to consist of two attributes with a discrete set of
 values - DATE and VALUES (price of cotton measured in USD per pound) . 
-It is univariate in nature . 
 It takes into
 account around 5 decades of cotton’s prices for analysis . 
 Initially the dataset is preprocessed by checking for null values . 
